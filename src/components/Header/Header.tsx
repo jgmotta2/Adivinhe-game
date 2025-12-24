@@ -3,14 +3,19 @@ import restartButton from "../../assets/restart.svg";
 
 import styles from "./styles.module.css";
 
-export default function Header() {
+type Props = {
+  currentNumber: number;
+  maxNumber: number;
+};
+
+export default function Header(props: Props) {
   return (
     <div className={styles.container}>
       <img src={logo} alt="logo" />
 
       <header>
         <span>
-          <strong>5</strong> de 10 tentativas
+          <strong>{props.currentNumber}</strong> de {props.maxNumber} tentativas
         </span>
 
         <button type="button">

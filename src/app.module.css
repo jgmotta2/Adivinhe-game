@@ -5,4 +5,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.container main {
+  width: 556px;
+  background-color: #ffff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  padding-top: 4.5rem;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2.5rem 0;
 }

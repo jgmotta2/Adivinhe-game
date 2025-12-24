@@ -1,0 +1,14 @@
+.letter {
+  width: 3.37rem;
+  height: 3.37rem;
+
+  border-radius: 10px;
+  background-color: #e1f5ec;
+  color: #03ab4f;
+  font-size: 2rem;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
