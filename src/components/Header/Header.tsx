@@ -6,6 +6,7 @@ import styles from "./styles.module.css";
 type Props = {
   currentNumber: number;
   maxNumber: number;
+  onRestart: () => void;
 };
 
 export default function Header(props: Props) {
@@ -19,7 +20,7 @@ export default function Header(props: Props) {
         </span>
 
         <button type="button">
-          <img src={restartButton} alt="" />
+          <img src={restartButton} alt="" onClick={props.onRestart} />
         </button>
       </header>
     </div>

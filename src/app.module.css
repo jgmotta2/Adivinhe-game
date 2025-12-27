@@ -16,10 +16,20 @@
   padding-top: 4.5rem;
 }
 
+h4 {
+  color: #32325f;
+}
+
 .word {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
   margin: 2.5rem 0;
+}
+
+.guess {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
 }
