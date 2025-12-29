@@ -17,6 +17,7 @@ export default function LetterUsed({ data }: Props) {
       <div>
         {data.map(({ value, correct }) => (
           <Letter
+            key={value}
             value={value}
             size="small"
             color={correct ? "correct" : "incorrect"}
